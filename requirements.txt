@@ -1,0 +1,8 @@
+numpy
+pandas
+pydeck
+python-dotenv
+Requests
+scikit-learn
+tqdm
+openpyxl
