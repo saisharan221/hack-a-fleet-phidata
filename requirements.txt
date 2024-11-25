@@ -6,3 +6,6 @@ Requests
 scikit-learn
 tqdm
 openpyxl
+matplotlib
+seaborn
+openai
