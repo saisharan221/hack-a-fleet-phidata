@@ -1,0 +1,34 @@
+Hour,Weekday,Weekend,Remarks
+00:00,Furusund,A,After call
+01:00,Furusund,A,After call
+02:00,Furusund,A,After call
+04:30,Furusund,Furusund,
+05:00,Furusund,Furusund,
+05:30,Yxlan,Yxlan,
+06:00,Furusund,Furusund,
+06:30,Yxlan,Yxlan,
+07:00,Furusund,Furusund,
+07:30,Yxlan,Blidö,
+08:00,Furusund,Furusund,
+08:30,Yxlan,Blidö,
+09:00,Furusund,Furusund,
+10:30,Yxlan,Yxlan,
+11:00,Furusund,Furusund,
+11:30,Yxlan,Yxlan,
+12:00,Furusund,Furusund,,No duplications
+12:45,Blidö,Blidö,
+13:00,Furusund,Furusund,
+13:30,Yxlan,Yxlan,
+14:00,Furusund,Furusund,
+14:30,Yxlan,Yxlan,
+15:00,Furusund,Furusund,
+15:30,Yxlan,Yxlan,
+16:00,Furusund,Furusund,
+16:30,Yxlan,Yxlan,
+17:00,Furusund,Furusund,
+17:30,Yxlan,Yxlan,
+18:00,Furusund,Furusund,
+18:30,Yxlan,Yxlan,
+19:00,Furusund,Furusund,
+19:30,Yxlan,Yxlan,
+20:00,Furusund,B,Not 24 Dec
