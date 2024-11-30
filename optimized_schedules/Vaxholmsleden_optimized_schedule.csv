@@ -1,0 +1,43 @@
+Given the current schedule and the optimization goals, here's an optimized schedule and fleet assignments:
+
+Optimized Schedule (CSV format):
+```
+Timestamp,Route,Ferry
+00:00,Vaxholm_Rindö,Castella
+00:20,Vaxholm_Rindö,Castella
+00:40,Vaxholm_Rindö,Castella
+01:00,Vaxholm_Rindö,Castella
+01:20,Vaxholm_Rindö,Castella
+01:40,Vaxholm_Rindö,Castella
+02:00,Vaxholm_Rindö,Castella
+02:20,Vaxholm_Rindö,Castella
+02:40,Vaxholm_Rindö,Castella
+03:00,Vaxholm_Rindö,Castella
+03:20,Vaxholm_Rindö,Castella
+03:40,Vaxholm_Rindö,Castella
+04:00,Vaxholm_Rindö,Castella
+04:20,Vaxholm_Rindö,Castella
+04:40,Vaxholm_Rindö,Castella
+05:00,Vaxholm_Rindö,Nina
+05:20,Vaxholm_Rindö,Nina
+05:40,Vaxholm_Rindö,Nina
+06:00,Vaxholm_Rindö,Castella
+06:20,Vaxholm_Rindö,Castella
+06:40,Vaxholm_Rindö,Castella
+...
+```
+
+Fleet Assignments:
+- Peak hours (6 AM–10 PM): Use both Nina and Castella. Schedule trips every 10 minutes to meet demand.
+- Off-peak hours (10 PM–6 AM): Use only Castella. Schedule trips every 20 minutes.
+
+Feasibility Analysis:
+- The proposed changes should meet demand as they increase frequency during both peak and off-peak hours. 
+- Using only one ferry during off-peak hours should reduce emissions as there will be fewer trips and less idle time for the ferries. 
+- The feasibility of these changes depends on the capacity of the ferries and the demand during these hours. If the demand is higher than the capacity of the ferries, additional ferries or larger ferries may be needed.
+
+Emissions Decrease and Demand Met Simulation:
+- Assuming each ferry trip produces a fixed amount of emissions, reducing the number of ferry trips during off-peak hours should reduce emissions. The exact amount of emissions decreased would depend on the emissions produced by each trip and the number of trips reduced.
+- The demand being met can be simulated by comparing the capacity of the ferries and the frequency of the trips with the demand during peak and off-peak hours. If the capacity and frequency can accommodate the demand, then the demand is being met.
+
+Please note that these are rough estimates and simulations. For more accurate results, detailed data on ferry capacity, demand, and emissions would be needed.
