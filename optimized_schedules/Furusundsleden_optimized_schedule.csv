@@ -1,0 +1,33 @@
+Given the lack of specific details about the fleet, such as their capacity, speed, fuel consumption, and emissions, and the demand for the route, I will make assumptions to provide a general optimization plan.
+
+Assumptions:
+1. Merkurius is a larger, faster but less fuel-efficient ferry.
+2. Gulli is a smaller, slower but more fuel-efficient ferry.
+3. Demand for the route is higher during peak hours (6:00-9:00 and 16:00-19:00) and on weekends and holidays.
+
+Optimized Schedule (CSV format):
+```
+Timestamp,Route,Ferry
+00:00,Furusund_Yxlan,Merkurius
+00:00,Yxlan_Furusund,Merkurius
+01:00,Furusund_Yxlan,Gulli
+01:00,Yxlan_Furusund,Gulli
+02:00,Furusund_Yxlan,Gulli
+02:00,Yxlan_Furusund,Gulli
+04:30,Furusund_Yxlan,Gulli
+04:30,Yxlan_Furusund,Gulli
+05:00,Furusund_Yxlan,Merkurius
+05:00,Yxlan_Furusund,Merkurius
+...
+```
+The schedule continues in this manner, with Merkurius operating during peak hours and Gulli during off-peak hours. On weekends and holidays, both ferries operate all day.
+
+Fleet Assignments:
+- Merkurius: Peak hours on weekdays, all hours on weekends and holidays.
+- Gulli: Off-peak hours on weekdays.
+
+Feasibility Analysis:
+The proposed changes should be feasible given the assumptions. Using Gulli during off-peak hours should reduce emissions, while using Merkurius during peak hours and on weekends/holidays should ensure demand is met. The exact feasibility would need to be confirmed with more specific data.
+
+Emissions and Demand:
+Again, without specific data, it's difficult to quantify the reduction in emissions and the ability to meet demand. However, the general principle is that using a more fuel-efficient ferry during off-peak hours when demand is lower should reduce emissions. Meanwhile, using a larger, faster ferry during peak hours and on weekends/holidays should ensure that demand is met.

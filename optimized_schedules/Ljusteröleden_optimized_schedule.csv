@@ -1,0 +1,55 @@
+Without specific data on the number of passengers, duration of the ferry ride, and emission rates of the two ferries (Jupiter and Frida), I can only provide a general optimization strategy and schedule. 
+
+1. Optimized Schedule:
+
+Considering the optimization goals, the schedule will be divided into three parts: summer weekends and holidays (peak demand), winter weekdays (low demand), and off-peak times.
+
+Peak Demand Schedule (Summer weekends and holidays):
+```
+Timestamp,Route,Ferry
+00:00,Ljusterö_Östanå,Jupiter
+00:10,Östanå_Ljusterö,Frida
+01:00,Ljusterö_Östanå,Jupiter
+01:10,Östanå_Ljusterö,Frida
+02:00,Ljusterö_Östanå,Jupiter
+02:10,Östanå_Ljusterö,Frida
+03:10,Östanå_Ljusterö,Frida
+04:00,Ljusterö_Östanå,Jupiter
+04:10,Östanå_Ljusterö,Frida
+05:00,Ljusterö_Östanå,Jupiter
+```
+Winter Weekdays Schedule:
+```
+Timestamp,Route,Ferry
+00:00,Ljusterö_Östanå,Jupiter
+01:00,Ljusterö_Östanå,Jupiter
+02:00,Ljusterö_Östanå,Jupiter
+03:10,Östanå_Ljusterö,Jupiter
+04:00,Ljusterö_Östanå,Jupiter
+05:00,Ljusterö_Östanå,Jupiter
+```
+Off-Peak Times Schedule:
+```
+Timestamp,Route,Ferry
+00:10,Östanå_Ljusterö,Frida
+01:10,Östanå_Ljusterö,Frida
+02:10,Östanå_Ljusterö,Frida
+04:10,Östanå_Ljusterö,Frida
+```
+2. Fleet Assignments: 
+
+During peak demand times (summer weekends and holidays), both Jupiter and Frida will be used to meet the high passenger demand. Jupiter will be used for Ljusterö_Östanå route, while Frida will be used for Östanå_Ljusterö route. 
+
+During winter weekdays, only Jupiter will be used for both routes to reduce emissions. 
+
+During off-peak times, Frida will be used to minimize fuel usage.
+
+3. Feasibility Analysis:
+
+This proposed schedule ensures that demand is met during peak times by using both ferries. During winter weekdays, using Jupiter alone should meet the demand as it's a low demand period. Using Frida during off-peak times helps in minimizing fuel usage. 
+
+However, the feasibility of this schedule heavily depends on the specifics of the demand, the capacity of the ferries, the duration of the ferry ride, and the emission rates of the two ferries. 
+
+4. Simulated Emissions Decrease and Demand Met:
+
+Without the specific data on the emission rates of the two ferries and the number of passengers, it's not possible to provide a simulated amount of emissions decrease and whether the demand is met. However, using Jupiter alone during winter weekdays and Frida during off-peak times should theoretically reduce emissions and minimize fuel usage while meeting the demand.

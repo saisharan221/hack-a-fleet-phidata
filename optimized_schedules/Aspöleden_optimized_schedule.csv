@@ -1,0 +1,27 @@
+1. Optimized Schedule (CSV format snippet):
+Timestamp,Route,Ferry
+00:30,Karlskrona_Aspö,Yxlan
+01:20,Aspö_Karlskrona,Yxlan
+02:10,Karlskrona_Aspö,Yxlan
+03:00,Aspö_Karlskrona,Yxlan
+03:50,Karlskrona_Aspö,Yxlan
+04:40,Aspö_Karlskrona,Yxlan
+05:30,Karlskrona_Aspö,Yxlan
+06:20,Aspö_Karlskrona,Yxlan
+07:10,Karlskrona_Aspö,Yxlan
+07:30,Karlskrona_Aspö,Other Ferry
+08:00,Aspö_Karlskrona,Yxlan
+08:20,Aspö_Karlskrona,Other Ferry
+08:50,Karlskrona_Aspö,Yxlan
+09:10,Karlskrona_Aspö,Other Ferry
+09:40,Aspö_Karlskrona,Yxlan
+10:00,Aspö_Karlskrona,Other Ferry
+
+2. Adjusted Fleet Assignments:
+During late-night hours (10 PM–6 AM), only Yxlan is used. During off-peak times, trips are scheduled every 50 minutes instead of 25 minutes. During peak hours, both ferries are used to meet demand.
+
+3. Feasibility Analysis:
+The proposed changes are feasible as they retain the same frequency during peak hours, ensuring that demand is met. By reducing the frequency during off-peak hours and using only one ferry during late-night hours, emissions are reduced. 
+
+4. Simulated Emissions and Demand:
+Assuming a linear relationship between ferry usage and emissions, using only one ferry during late-night hours and reducing the frequency during off-peak hours should result in a significant reduction in emissions. As the frequency during peak hours is retained, demand should still be met. The exact amount of emissions reduced and the demand met would need to be calculated based on the specific emission factors and demand levels of the ferries and route.
