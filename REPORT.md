@@ -6,6 +6,7 @@ The **Hack-A-Fleet v2.0** hackathon provided an opportunity to leverage real-wor
 
 Our project focused on five ferry routes operated by Färjerederiet. Each route had distinct operational challenges, necessitating tailored solutions. We applied modern data analysis tools, advanced machine learning models (e.g., OpenAI GPT-4), and optimization techniques to address these challenges.
 
+**Please refer to the optimized_schedules folder, optimization.ipynb and ferry_schedules.ipynb**
 ---
 
 ## Objectives
@@ -180,18 +181,7 @@ GPT-4 generated:
 
 ---
 
-## Future Work
 
-1. **Dynamic Scheduling**:
-   - Integrate real-time demand forecasting using machine learning models.
-
-2. **Emissions Monitoring**:
-   - Develop dashboards to continuously track emissions and fuel consumption.
-
-3. **Fleet Modernization**:
-   - Explore the transition to electric or hybrid ferries to further reduce emissions.
-
----
 
 ## Conclusion
 
