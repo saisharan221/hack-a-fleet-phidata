@@ -1,27 +1,13 @@
-import json
+from phi.agent import Agent
 from phi.model.openai import OpenAIChat
-from phi.agent.duckdb import DuckDbAgent
+from phi.tools.duckduckgo import DuckDuckGo
 
-
-
-data_analyst = DuckDbAgent(
-    model=OpenAIChat(model="gpt-4o"),
-    semantic_model=json.dumps(
-        {
-            "tables": [
-                {
-                    "name": "movies",
-                    "description": "Contains information about movies from IMDB.",
-                    "path": "https://phidata-public.s3.amazonaws.com/demo_data/IMDB-Movie-Data.csv",
-                }
-            ]
-        }
-    ),
+web_agent = Agent(
+    name="Web Agent",
+    model=OpenAIChat(id="gpt-4o"),
+    tools=[DuckDuckGo()],
+    instructions=["Always include sources"],
+    show_tool_calls=True,
     markdown=True,
 )
-data_analyst.print_response(
-    "Show me a histogram of ratings. "
-    "Choose an appropriate bucket size but share how you chose it. "
-    "Show me the result as a pretty ascii diagram",
-    stream=True,
-)
+web_agent.print_response("Tell me about OpenAI Sora?", stream=True)
